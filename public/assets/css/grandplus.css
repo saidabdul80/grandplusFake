@@ -1,0 +1,265 @@
+  body{
+     background:
+     /* */
+      
+               url('../../img/bg2.png') no-repeat center center fixed;
+               -webkit-background-size: cover;
+                 -moz-background-size: cover;
+                 -o-background-size: cover;
+                 background-size: cover;
+				 color:#002b80;
+  }
+/*dashboard top 4 panels css*/
+.squarebox h4 {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.square_box .number {
+    font-size: 30px;
+    float: left;
+    clear: both;
+    margin-top: 0;
+    text-align: left;
+    font-weight: 700;
+}
+
+.square_box span {
+    font-size: 12px;
+    float: left;
+}
+
+.no-radius {
+    border-radius: 4px;
+}
+
+.lightbluebg {
+    background: #418bca;
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    margin: 10px 0;
+}
+
+.redbg {
+    background: #EF6F6C;
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    margin: 10px 0;
+}
+
+.goldbg {
+    background: #F89A14;
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    margin: 10px 0;
+}
+
+.palebluecolorbg {
+    background: #00bc8c;
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    margin: 10px 0;
+}
+
+.breadcrumb #active a, .breadcrumb a, .breadcrumb a:hover {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.bg-aqua {
+    background: #028482
+}
+
+img.flag {
+    height: 16px;
+    width: 28px;
+    padding-right: 10px;
+}
+
+.has-error .form-control {
+    border-color: #EF6F6C;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.has-error .control-label {
+    color: #EF6F6C;
+}
+.error{
+    color:#ef6f6c;
+}
+.error span{
+    color: #ef6f6c;
+}
+.has-success .form-control {
+    border-color: #00bc8c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.has-success .control-label {
+    color: #00bc8c;
+}
+
+.has-warning .form-control {
+    border-color: #F89A14;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.has-warning .control-label {
+    color: #F89A14;
+}
+
+.panel-heading small {
+    line-height: 23px;
+    font-size: 12px;
+}
+
+.orange_small_squarebox {
+    width: 4px;
+    height: 0;
+    border: 5px solid #F89A14;
+    overflow: hidden;
+}
+
+.ccc_border {
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+
+.panel-title .ccc_border {
+    margin-top: 20px;
+}
+
+.panel-border {
+    border: 1px solid #ddd;
+}
+
+.panel-border .panel-heading {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.white-text {
+    color: #fff;
+    opacity: 0.7;
+}
+
+  .linkbar {
+    color: #fff;
+	position:relative;
+	border-right: 1px solid white;
+	
+  }
+   .linkbar a:hover {
+   text-decoration:none;
+	
+  }
+  .linkbar:hover
+  {
+	text-decoration:none;
+	
+  }
+  
+  .linkbar:hover > ul  {
+    display:block;
+	text-decoration:none;
+	
+  }
+  
+  
+  
+  .linkbar ul{
+    margin-left:5px;
+    top:25px;
+    position:absolute;
+	display:none;
+	background:#2064a8;
+	padding:5px;
+	width:150px;
+	z-index: 1000;
+  }
+  
+   .linkbar ul li{
+	  list-style:none;
+  }
+  
+  .linkbar ul li:hover{
+	  background:#fff;
+	  color:#001aff;
+  }
+  
+  .linkbar ul li a:hover{
+	background:#fff;
+	color:#001aff;
+	cursor:pointer;
+  }
+  
+    .linkbar ul li{
+   padding:5px;
+   border-bottom: .7px solid white;
+  }
+  
+  
+  .linkbar a{
+    color: #fff;
+  }
+  
+  
+  .para1{font-size: 20px;color:#f56e20   }
+  .para2{font-size: 18px;color:#f56e20   }
+  .para3{font-size: 16px;color:#f56e20   }
+  
+  #accordion{
+	  width: 100%;
+  }
+  .mySideTab{
+  color: #ffffff;
+  box-shadow: 0 5px 10px 0 rgba(5, 8, 24, .15);
+  background: #2064a8;
+  padding:5px 20px;
+  text-align:left;
+  font-weight:bolder;
+  margin:0px;
+  width:100%;
+}
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.collapsed{text-decoration:none;}
+.collapsed:hover{text-decoration:none;}
+.collapsed:active{text-decoration:none;}
+
+.mySideTab:hover,.mySideTab:active{
+  color: #fff;
+  background: #67b1e6;
+  text-decoration:none;
+}
+
+
+
+.font-14 {
+	font-size:14px;
+}
+.page-crumb {
+			
+		}
+		
+		.page-crumb h4{
+			box-shadow: 0px 3px 5px 0px rgba(153, 153, 153, 0.3);
+			 padding: 5px;
+			 color:#b4d6ef;
+			 background:#ffffff;
+		}
+		
+		.page-crumb h4 a{
+			text-decoration:none;
+			color:#2064a8;
+			font-size: 14px;
+		}

@@ -1,0 +1,27 @@
+body{
+	background: #fff;
+	margin:0;
+	padding:0;
+}
+
+.linkbar {
+	color:#ffffff;
+	border-right: 1px solid #fff;
+	text-align:center;
+}
+
+.linkbar a{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.linkbar a:hover{
+	background:#ffffff;
+	color:#001a4d;
+	text-decoration:none;
+}
+.linkbar:hover{
+	background:#ffffff;
+	color:#001a4d;
+	text-decoration:none;
+}
